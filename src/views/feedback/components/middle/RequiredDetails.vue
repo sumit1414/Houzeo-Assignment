@@ -126,7 +126,13 @@
                 Complete the document and upload it here to mark this task
                 complete.
               </p>
-              <div class="uploader-box py-4 mt-4 bg-white">
+              <div
+                class="uploader-box py-4 mt-4 bg-white relative cursor-pointer"
+              >
+                <input
+                  type="file"
+                  class="opacity-0 absolute w-full h-full left-0 top-0"
+                />
                 <h2 class="family-lato fsize20 font-bold">
                   Upload your images
                 </h2>
@@ -136,7 +142,7 @@
                 <img
                   src="@/assets/image/cloud-computing.png"
                   alt="upload-icon"
-                  class="mx-auto"
+                  class="mx-auto cursor-pointer"
                 />
                 <p class="family-lato fsize16 font-medium opacity-50">
                   Drag and drop or browse to choose a file
